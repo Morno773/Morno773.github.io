@@ -12,6 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(242, 39, 84, 0.35)",
+          "0 0px 65px rgba(242, 39, 84, 0.2)"
+        ]
+      },
+      screens: {
+        "min-mobile": "760px",
+        "mobile": {'max': '760px'},
+      },
     },
   },
   plugins: [],
